@@ -3,16 +3,17 @@ import './App.css'
 function App() {
   return(
     <div>
-      <div className="navbar">
-        <h1>Home</h1>
-        <nav>
-          <a href="#about">Sobre</a>
-          <a href="#services">Serviços</a>
-          <a href="#portfolio">Portifólio</a>
-          <a href="#partnerships">Parcerias</a>
-          <a href="#contact">Contato</a>
-        </nav>
-      </div>
+      <nav>
+        <a href="/">Home</a>
+        <ul>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#portfolio">Portifólio</a></li>
+          <li><a href="#partnerships">Parcerias</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    
 
       <section id="about">
         <h4>Sobre</h4>
